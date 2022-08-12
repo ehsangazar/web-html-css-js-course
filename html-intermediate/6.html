@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Map</title>
+  </head>
+  <body>
+    <img src="./workplace.jpg" usemap="#workplace" />
+    <map name="workplace">
+      <area
+        shape="rect"
+        coords="34,44,270,350"
+        href="https://google.com"
+        alt="Laptop"
+      />
+      <area
+        shape="rect"
+        alt="Personal Website"
+        coords="290,172,333,250"
+        href="https://fa.ehsangazar.com"
+      />
+    </map>
+    <br />
+    <br />
+    <a href="https://bing.com">
+      <img src="./test.png" alt="Personal Image" />
+    </a>
+    <br />
+    <br />
+    <picture>
+      <!-- Responsive -->
+      <!-- Media Query -->
+      <source media="(min-width: 450px)" srcset="./workplace.jpg" />
+      <img src="./test.png" />
+    </picture>
+  </body>
+</html>
