@@ -1,0 +1,19 @@
+.card {
+    width: 300px;
+    border: 2px solid #00612d;
+    border-radius: 5px;
+    margin: 0px 0px 30px 34px;
+    padding: 10px 20px 7px 40px;
+    background-color: coral;
+    outline: 2px solid #6aff00;
+    /* outline: 4px solid #6aff00;
+       outline-style: dotted; */
+}
+.card h3 {
+    margin: 0;
+    padding-left: 20px;
+}
+.card p {
+    margin: 0;
+    color: #504d18;
+}

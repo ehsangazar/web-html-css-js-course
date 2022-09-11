@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'fireStone';
+    src: url('./font/FireStone.woff') format('woff');
+}
+h1, h2, h3, h4, h5 {
+    margin: 2px 0;
+}
+.heading1 {
+    color: red;
+    font-size: 35px;
+    font-family: Arial;
+}
+.heading2 {
+    color: purple;
+    font-size: 30px;
+    font-family: fantasy;
+}
+.heading3 {
+    font-family: "Ubuntu";
+}
+.headingExternalFont100 {
+    font-family: Roboto;
+    font-weight: 100;
+}
+.headingExternalFont300 {
+    font-family: Roboto;
+    font-weight: 300
+}
+.headingExternalFontMedium {
+    font-family: Roboto;
+    font-weight: medium;
+}
+.headingRubik {
+    font-family: 'Rubik Iso', cursive;
+}
+.haedingFireStone {
+    font-family: 'fireStone';
+    font-size: 40px;
+}
+.fontNotFound {
+    font-family: 'fireStone2', Roboto;
+}

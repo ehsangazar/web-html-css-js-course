@@ -1,0 +1,28 @@
+.card {
+    background-color: #e5e5e5;
+    /* border: 1px solid black; */
+    border-width: 2px;
+    border-style: solid;
+    border-color: #353535;
+    border-radius: 10px;
+}
+.card h2 {
+    font-size: 18px;
+}
+.card p {
+    font-size: 12px;
+}
+.card.card-green {
+    background-color: rgb(179, 255, 179);
+    border-radius: 20px;
+    border-color:rgb(18, 178, 219)
+}
+.underline {
+    border-bottom: 3px solid #413aff;
+}
+.circle {
+    border: 1px solid #000;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,42 @@
+body {
+    color: rgb(88, 88, 255);
+    background-color: #111;
+    /* rgb() */
+    /* #000000 */
+}
+h1 {
+    color: red;
+}
+h2 {
+    color: green;
+}
+h3 {
+    color: navy;
+}
+div h3 {
+    color: orange;
+}
+body div h3 {
+    color: orange;
+}
+body > div > h3 {
+    color: orange
+}
+.details {
+    font-size: 10px;
+    color: gray;
+}
+.details-second {
+    font-size: 14px;;
+}
+/* Control/Command + / */
+/* Email must be unique */
+#email-unique-id {
+    color: brown;
+}
+/* ul > li {
+    color:gold;
+} */
+/* #list li { 
+    color: gold;
+} */

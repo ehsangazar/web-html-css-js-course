@@ -1,0 +1,35 @@
+*, body {
+    font-family: 'Roboto';
+}
+h1 {
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: lowercase;
+    text-decoration: underline;
+    text-align: center;
+}
+h2 {
+    text-transform: uppercase;
+    border-bottom: 3px solid green;
+    text-shadow: -4px 3px #b4b4b4;
+}
+h3 {
+    text-align: right;
+}
+.rtl {
+    direction: rtl;
+}
+.special_h2 {
+    letter-spacing: 10px;
+    line-height: 20px;
+}
+p.different {
+    line-height: 40px;
+    letter-spacing: -1px;
+    word-spacing: 5px;
+    text-indent: 50px;
+}
+p.whitespace {
+    white-space: nowrap;
+}
