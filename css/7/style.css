@@ -1,0 +1,39 @@
+a {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+}
+a:hover {
+    color: green;
+    background-color: white;
+}
+a:active {
+    color: yellow;
+    background-color: black;
+} 
+a:visited {
+    color: crimson;
+}
+ul {
+    padding: 10px
+}
+ul li {
+    padding: 5px 0;
+    list-style-type: disclosure-closed;
+}
+ul li a {
+    padding: 0;
+    margin: 0;
+}
+table {
+    border-collapse: collapse;
+    font-size: 30px;
+}
+table thead {
+    background-color: rgb(124, 236, 253);
+}
+table td {
+    border: 1px solid gray;
+    padding: 0 10px;
+}

@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.box1 {
+    width: calc(100vw - 100px);
+    height: calc(100vh - 400px);
+    background-color: red;
+    padding: 0;
+    padding: 10px;
+}
+.box2 {
+    width: max(30% , 200px);
+    height: 100px;
+    background-color: rgb(14, 179, 22);
+    padding: 0;
+    padding: 10px;
+}
+.box2 {
+    width: min(20% , 150px);
+    height: 100px;
+    background-color: rgb(14, 179, 22);
+    padding: 0;
+    padding: 10px;
+}
+
+/* CSS Attribute Selector */
+a {
+    color: red;
+}
+a[target="_blank"] {
+    color: green
+}
+a[title~="Gazar"] {
+    color: rgb(76, 0, 255)
+}

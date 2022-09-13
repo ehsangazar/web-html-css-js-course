@@ -1,0 +1,37 @@
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+.parent-element {
+    background-color: rgb(131, 255, 131);
+    height: 100px;
+    padding: 20px;
+    position: relative;
+}
+.child-element {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: red;
+}
+.fix {
+    position: fixed;
+    top: 100px;
+    right: 30px;
+    background-color: yellow;
+}
+.center {
+    right: 0;
+    left: 0;
+    width: 150px;
+    margin: auto auto;
+    top: 0px;
+    bottom: 0;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

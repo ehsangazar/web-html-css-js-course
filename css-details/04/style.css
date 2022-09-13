@@ -1,0 +1,43 @@
+/* Pseudo Elements */
+p {
+    padding: 10px;
+    line-height: 24px;
+}
+p::first-line {
+    color: red;
+}
+p::first-letter {
+    font-size: 50px;
+    padding-left: 20px;
+}
+::marker {
+    color: red
+}
+::selection {
+    color: black;
+    background-color: yellow;
+}
+.image {
+    width: 200px;
+    position: relative;
+}
+.image::before {
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.8;
+}
+.image::after {
+    content: ' ';
+    width: 100%;
+    height: 5px;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(156, 2, 2);
+    position: absolute;
+}
+.image img {
+    width: 100%;
+}
