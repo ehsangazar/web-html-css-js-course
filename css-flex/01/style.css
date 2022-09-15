@@ -1,0 +1,15 @@
+body {
+
+}
+.navbar {
+    display: flex;
+}
+.navbar-first-half {
+    display: flex;
+}
+.menus ul {
+    display: flex;
+}
+.menus ul li {
+    list-style: none;
+}
