@@ -1,0 +1,58 @@
+@import '../sass-utils/mixins';
+
+@keyframes labelAnimated {
+    0% {
+        top: 12px;
+        color: red;
+        left: 48px;
+    }
+    50% {
+        top: -12px;
+        left: 48px;
+        color:blue;
+    }
+    100% {
+        top: -12px;
+        left: 8px;
+        color: green;
+    }
+}
+
+.form {
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    padding: 12px 0;
+    .input__group {
+        width: 100%;
+        position: relative;
+        label {
+            position: absolute;
+            @include small;
+            top: 12px;
+            left: 48px;
+            transition: all 0.5s ease-in-out;
+        }
+        svg {
+            position: absolute;
+            top: 12px;
+            left: 12px;
+        }
+        input {
+            @include box-primary;
+            @include heading5;
+            width: 100%;
+            padding-left: 40px;
+        }
+        &:focus-within {
+            label {
+                animation-name: labelAnimated;
+                animation-duration: 0.4s;
+                top: -12px;
+                left: 8px;
+                background-color: white;
+                padding: 0 7px;
+            }
+        }
+    }
+}

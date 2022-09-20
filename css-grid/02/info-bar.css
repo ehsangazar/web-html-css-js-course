@@ -1,0 +1,14 @@
+.info-bar {
+    background-color: rgb(254, 221, 214);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+
+@media screen and (max-width: 500px) {
+    .info-bar {
+        grid-template-columns: 1fr;
+    }
+}

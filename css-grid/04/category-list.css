@@ -1,0 +1,18 @@
+.category-list {
+    width: 100%;
+    padding: 0 24px;
+}
+.category-list ul {
+    display: grid;
+    gap: 16px;
+    align-items: center;
+    /* grid-template-columns: repeat(auto-fill, minmax(240px,1fr)); */
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+.category-list ul li img{
+    width: 100%;
+}
+.category-list ul li a {
+    display: grid;
+    justify-items: center;
+}

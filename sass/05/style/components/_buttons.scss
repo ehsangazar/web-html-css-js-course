@@ -1,0 +1,49 @@
+@import '../sass-utils/variables';
+@import '../sass-utils/mixins';
+.btn {
+    @include box-primary;
+    @include paragraph;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    &:hover {
+        background-color: $grayLight;
+        color: $white;
+    }
+
+    &--primary {
+        background-color: $primary;
+        color: $white;
+        width: 100%;
+        opacity: 0.7;
+        &:hover {
+            opacity: 1;
+            background-color: $primary;
+        }
+    }
+    
+    &--outline {
+        background-color: $white;
+    }
+    &--texticon {
+        display: grid;
+        grid-template-columns: 20px 1fr;
+        gap: 8px;
+        align-items: center;
+    }
+    &--icon {
+        display: grid;
+        grid-template-columns: 20px 1fr;
+        gap: 8px;
+        align-items: center;
+        img  {
+            width: 25px;
+        }
+
+        &:hover {
+            background-color: $white;
+        }
+    }
+    &--noborder {
+        border: none;
+    }
+}

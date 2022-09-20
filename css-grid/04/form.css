@@ -1,0 +1,10 @@
+.input {
+    background-color: rgb(229, 229, 229);
+    width: 100%;
+    border: 1px solid rgb(229, 229, 229);
+    padding: 12px 8px;
+    border-radius: 8px;
+}
+form, .input-group {
+    width: 100%;
+}

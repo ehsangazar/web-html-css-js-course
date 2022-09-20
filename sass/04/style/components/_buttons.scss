@@ -1,0 +1,36 @@
+@import '../sass-utils/variables';
+@import '../sass-utils/mixins';
+.btn {
+    @include box-primary;
+    cursor: pointer;
+    &:hover {
+        background-color: $grayLight;
+        color: $white;
+    }
+    
+    &--outline {
+        background-color: $white;
+    }
+    &--texticon {
+        display: grid;
+        grid-template-columns: 20px 1fr;
+        gap: 8px;
+        align-items: center;
+    }
+    &--icon {
+        display: grid;
+        grid-template-columns: 20px 1fr;
+        gap: 8px;
+        align-items: center;
+        img  {
+            width: 25px;
+        }
+
+        &:hover {
+            background-color: $white;
+        }
+    }
+    &--noborder {
+        border: none;
+    }
+}

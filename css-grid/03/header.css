@@ -1,0 +1,15 @@
+.header {
+    display: grid;
+    height: 50px;
+    grid-template-columns: 120px 1fr 160px;
+    align-items: center;
+    justify-items: center;
+    padding: 0px 12px;
+    gap: 8px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.header .logo, .header .logo svg {
+    width: 100px;
+    height: 40px;
+}

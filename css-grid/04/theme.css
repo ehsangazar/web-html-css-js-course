@@ -1,0 +1,9 @@
+:root {
+    /* Colors */
+    --black: rgba(0, 0, 0, 0.87);
+    --primary: #ee1747;
+    --white: #fff;
+    /* Box Shadows */
+    --box-shadow-primary: 1px 2px 8px rgb(31 31 31 / 12%),
+        -4px 4px 16px rgb(31 31 31 / 12%);
+}

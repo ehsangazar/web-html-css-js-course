@@ -1,0 +1,13 @@
+.auth {
+    max-width: 400px;
+    margin: auto auto;
+    &__socials {
+        display: grid;
+        grid-template-columns: 1fr 110px;
+        &__icons {
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 50px 50px;
+        }
+    }
+}

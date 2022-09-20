@@ -1,0 +1,29 @@
+@import '../sass-utils/variables';
+
+@mixin box-primary {
+    border: 1px solid $grayLight;
+    border-radius: 4px;
+    padding: 4px 12px;
+    height: 48px;
+}
+@mixin heading1 {
+    font-size: 2.488rem;
+}
+@mixin heading2 {
+    font-size: 2.074rem;
+}
+@mixin heading3 {
+    font-size: 1.728rem;
+}
+@mixin heading4 {
+    font-size: 1.44rem;
+}
+@mixin heading5 {
+    font-size: 1.2rem;
+}
+@mixin paragraph {
+    font-size: 1rem;
+}
+@mixin small {
+    font-size: 0.833rem;
+}

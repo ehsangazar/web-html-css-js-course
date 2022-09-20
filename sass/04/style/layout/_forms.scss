@@ -1,0 +1,27 @@
+@import '../sass-utils/mixins';
+
+.form {
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    padding: 12px 0;
+    .input__group {
+        width: 100%;
+        position: relative;
+        label {
+            position: absolute;
+            @include small;
+        }
+        svg {
+            position: absolute;
+            top: 12px;
+            left: 12px;
+        }
+        input {
+            @include box-primary;
+            @include heading5;
+            width: 100%;
+            padding-left: 40px;
+        }
+    }
+}

@@ -1,0 +1,274 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:400");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #000;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 2.488rem;
+}
+
+h2 {
+  font-size: 2.074rem;
+}
+
+h3 {
+  font-size: 1.728rem;
+}
+
+h4 {
+  font-size: 1.44rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+small,
+.text_small {
+  font-size: 0.833rem;
+}
+
+.auth {
+  max-width: 400px;
+  margin: auto auto;
+}
+.auth__socials {
+  display: grid;
+  grid-template-columns: 1fr 110px;
+}
+.auth__socials__icons {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 50px 50px;
+}
+.auth__form {
+  padding: 24px 0;
+}
+
+.form {
+  width: 100%;
+  display: grid;
+  gap: 20px;
+  padding: 12px 0;
+}
+.form .input__group {
+  width: 100%;
+  position: relative;
+}
+.form .input__group label {
+  position: absolute;
+  font-size: 0.833rem;
+}
+.form .input__group svg {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+.form .input__group input {
+  border: 1px solid #9B99AF;
+  border-radius: 4px;
+  padding: 4px 12px;
+  height: 48px;
+  font-size: 1.2rem;
+  width: 100%;
+  padding-left: 40px;
+}
+
+.btn {
+  border: 1px solid #9B99AF;
+  border-radius: 4px;
+  padding: 4px 12px;
+  height: 48px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #9B99AF;
+  color: #fff;
+}
+.btn--outline {
+  background-color: #fff;
+}
+.btn--texticon {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  gap: 8px;
+  align-items: center;
+}
+.btn--icon {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  gap: 8px;
+  align-items: center;
+}
+.btn--icon img {
+  width: 25px;
+}
+.btn--icon:hover {
+  background-color: #fff;
+}
+.btn--noborder {
+  border: none;
+}/*# sourceMappingURL=style.css.map */

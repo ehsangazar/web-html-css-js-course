@@ -1,0 +1,30 @@
+.input {
+    background-color: rgb(229, 229, 229);
+    width: 100%;
+    border: 1px solid rgb(229, 229, 229);
+    padding: 12px 8px;
+    border-radius: 8px;
+    outline: none;
+}
+form, .input-group {
+    width: 100%;
+    z-index: 2;
+}
+form .input-group .search-background-overlay {
+    display: none;
+    background-color: var(--black-overlay);
+    backdrop-filter: blur(3px);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+}
+form,
+.input-group .input-search:focus {
+    background-color: var(--white);
+}
+form .input-group .input-search:focus + .search-background-overlay {
+    display: block;
+}

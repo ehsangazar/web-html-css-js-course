@@ -1,0 +1,19 @@
+.menus {
+    width: 100%;
+}
+.menus ul.menu-list {
+    width: 100%;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+}
+.menus ul.menu-list li {
+    text-align: center;
+}
+.menus ul.menu-list li a {
+    text-decoration: none;
+    font-weight: 500;
+}
+.menus ul.menu-list li a:hover {
+    background: linear-gradient(transparent 60%, rgb(253, 154, 132) 60%);
+}
